@@ -1,0 +1,72 @@
+body {
+  background-color: black;
+  color: white;
+}
+
+.cell {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+img {
+
+  width: 40px;
+  height: 40px;
+
+}
+
+.floor {
+  background-image: url(../IMG/Wall.png);
+
+}
+
+.winModal {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 100;
+  display: none;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.gameOverModal {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 100;
+  display: none;
+  justify-content: center;
+  align-items: center;
+
+
+}
+
+
+.modal-container {
+  background-color: #e6ecf0;
+  padding: 10px 0 20px 0;
+  border-radius: 10px;
+  width: 450px;
+  text-align: center;
+  color: black;
+}
+
+
+
+
+
+/* .formLine {
+  margin:10px;
+  padding:10px;
+  background-color: cornflowerblue;
+} */
